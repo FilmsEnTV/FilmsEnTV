@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.FilmsEnTV" name="FilmsEnTV" version="1.0" provider-name="FilmsEnTV">
+	<extension point="xbmc.addon.repository" name="FilmsEnTV Addon Repository">
+		<info compressed="false">https://github.com/FilmsEnTV/FilmsEnTV/addons.xml</info>
+		<checksum>https://github.com/FilmsEnTV/FilmsEnTV/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/FilmsEnTV/FilmsEnTV/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>FilmsEnTV's addons</summary>
+		<description>Download and install addons from FilmsEnTV</description>
+		<platform>all</platform>
+	</extension>
+</addon>
